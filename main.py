@@ -45,7 +45,7 @@ URLS_TO_CHECK = [
 ]
 
 # Aranan Bedenler (Tüm ürünler için bu bedenlere bakar)
-SIZES_TO_CHECK = ["S", "M", "L", "XL", "38", "40", "42"] 
+SIZES_TO_CHECK = ["S", "M", "38", "40",] 
 
 # GitHub Şifreleri
 BOT_API = os.environ.get("BOT_API")
@@ -129,6 +129,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
