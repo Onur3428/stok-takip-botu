@@ -26,9 +26,21 @@ URLS_TO_CHECK = [
         "store": "zara",
         "url": "https://www.zara.com/tr/tr/jakarli-cizgili-t-shirt-p04087380.html?v1=465255237"
     },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/yun-karisimli-kazak-p05755352.html?v1=484669241"
+    },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/yunlu-monty-harry-lambert-for-zara-x-disney-kazak-p05755376.html?v1=459127737"
+    },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/straight-fit-rahat-pantolon-p03046213.html?v1=484867453"
+    },
     {
         "store": "zara",
-        "url": "https://www.zara.com/tr/tr/80-kus-tuyu---20-kaz-tuyu-yelek-p00732233.html?v1=463745824"
+        "url": "https://www.zara.com/tr/tr/yun-straight-fit-pantolon-p06807814.html?v1=485225817"
     }
 ]
 
@@ -104,4 +116,5 @@ def main():
         print("Islem tamamlandi. Bot kapaniyor.")
 
 if __name__ == "__main__":
+
     main()
