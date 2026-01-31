@@ -10,6 +10,10 @@ from scraperHelpers import check_stock_zara, check_stock_bershka, check_stock_ma
 
 # --- AYARLAR VE LİNKLER (Senin Verdiğin Liste) ---
 URLS_TO_CHECK = [
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/basic-slim-fit-t-shirt-p05584401.html?v1=495669923&v2=2578528" 
+    },
     {
         "store": "zara",
         "url": "https://www.zara.com/tr/tr/cizgili-jakarli-gomlek---limited-edition-p06402151.html?v1=477849840" 
@@ -118,3 +122,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
