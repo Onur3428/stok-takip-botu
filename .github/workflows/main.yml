@@ -2,7 +2,7 @@ name: Zara Stok Kontrol Botu
 
 on:
   schedule:
-    - cron: "*/20 * * * *"  # Her 20 dakikada bir çalıştırır
+    - cron: "*/10 * * * *"  # Her 20 dakikada bir çalıştırır
   workflow_dispatch:        # Elle test etmek için buton ekler
 
 jobs:
