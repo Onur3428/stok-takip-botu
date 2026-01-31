@@ -13,7 +13,32 @@ from scraperHelpers import check_stock_zara, check_stock_bershka, check_stock_ma
 URLS_TO_CHECK = [
     {
         "store": "zara",
-        "url": "https://www.zara.com/tr/tr/basic-slim-fit-t-shirt-p05584401.html?v1=495669923&v2=2578528"
+        "url": "https://www.zara.com/tr/tr/yun-karisimli-kazak-p05755352.html?v1=484669241"
+    },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/yunlu-monty-harry-lambert-for-zara-x-disney-kazak-p05755376.html?v1=459127737"
+    },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/straight-fit-rahat-pantolon-p03046213.html?v1=484867453"
+    },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/yun-straight-fit-pantolon-p06807814.html?v1=485225817"
+    },
+     {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/jakarli-cizgili-t-shirt-p04087380.html?v1=465255237"
+    },
+    
+    {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/relaxed-fit-limited-edition-jean-p03991391.html?v1=464614591"
+    },
+    {
+        "store": "zara",
+        "url": "https://www.zara.com/tr/tr/basic-fermuarli-yaka-sweatshirt-p00761311.html?v1=458120097"
     },
     {
         "store": "zara",
@@ -106,4 +131,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
